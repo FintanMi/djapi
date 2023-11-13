@@ -1,0 +1,167 @@
+.Playlist {
+    display: flex;
+    color: #fff;
+}
+
+.PlaylistPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlaylistInfo {
+    text-align: center;
+    padding: 1rem 1.5rem;
+    display: flex;
+}
+
+.PlaylistInfoSubSection {
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.PlaylistInfoSubSectionIcons {
+    display: flex;
+    margin-left: 6rem;
+    align-items: center;
+}
+
+.PlaylistImage {
+    width: 15rem;
+    height: 15rem;
+}
+
+.PlaylistImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 60px rgba(0,0,0,0.5),
+    0 4px 40px rgba(0,0,0,0.5);
+}
+
+.PlaylistDescription {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+}
+
+.PlaylistDescription h1 {
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    letter-spacing: -7px;
+}
+
+.PlaylistDescriptionSub {
+    display: flex;
+    letter-spacing: -0.5px;
+}
+
+.PlaylistDescriptionSub p {
+    margin: 0;
+}
+
+.PlaylistDescriptionSub span {
+    opacity: 0.7;
+    margin-left: 0.3rem;
+}
+
+.PlayIcon {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    background: #0575e6;
+    color: #000;
+    margin-left: auto;
+    padding: 1.1rem 1.2rem 1.2rem 1.3rem;
+    position: absolute;
+}
+
+.HeartIcon {
+    width: 2rem;
+    height: 2rem;
+    fill: #c2c2c2;
+    margin-right: 2.8rem;
+}
+
+.ThreeIcons {
+    font-size: 1.8rem;
+}
+
+.RR {
+    margin-right: 0.5rem;
+}
+
+.PlaylistContainer {
+    padding: 0 1.2rem;
+    height: 100%;
+}
+
+.PlaylistTitleRow {
+    display: grid;
+    gap: 1rem;
+    padding: 0 1rem;
+    color: #c2c2c2;
+}
+
+.PlaylistTitleRowContent {
+    display: flex;
+    align-items: center;
+}
+
+.PlaylistRow {
+    display: grid;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.PlaylistRowContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TrackNumberBtn {
+    display: none;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.TrackNumberBtn:hover {
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.PlaylistRowContentColumn {
+    display: flex;
+    align-items: center;
+}
+
+.PlaylistRowContent img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.PlaylistRowContent:hover {
+    background: #c2c2c2;
+    border-radius: 5px;
+}
+
+.TrackNumber:hover {
+    cursor: pointer;
+}
+
+.PlaylistRowContentColumnDesc {
+    text-align: left;
+}
+
+.PlaylistRowContentColumnArtist {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerMain {
+    background: grey;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.NavBar {
+    width: 13rem;
+    height: 100%;
+    background-color: #000;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 1rem;
+    max-width: 7rem;
+    font-weight: bold;
+    color: #c2c2c2;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+ul li {
+    color: #c2c2c2;
+    list-style: none;
+    border-radius: 5px;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+ul li:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+svg {
+    fill: #c2c2c2;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding-bottom: 3px;
+}
+
+.copyright {
+    font-size: 0.65rem;
+    color: #c2c2c2;
+    text-align: center;
+    margin-top: auto;
+}
+
+.LoginApp {
+    font-family: "Quicksand", "Ubuntu", sans-serif;
+    height: calc(100vh - 6rem);
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.PlaybarLogin {
+    font-family: "Quicksand", "Ubuntu", sans-serif;
+    background-color: #050505;
+    color: #f2fcfe;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    position: relative;
+}
+
+.App {
+    font-family: "Quicksand", "Ubuntu", sans-serif;
+    background-color: #160202;
+    color: #f2fcfe;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main {
+    padding-top: 2rem;
+}
+
+.hr {
+    border: 2px solid #c2c2c2;
+}
+
+

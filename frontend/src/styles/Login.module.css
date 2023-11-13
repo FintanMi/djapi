@@ -1,0 +1,48 @@
+.Login {
+    background: #050505;
+    height: calc(100vh - 90px);
+    font-size: 2rem;
+    color: #fff;
+}
+
+.LoginHeader {
+    display: flex;
+    text-align: center;
+}
+
+.Group {
+    margin-bottom: 1.2rem;
+}
+
+.LoginBtn {
+    font-size: 1rem;
+    font-weight: 600;
+    align-self: center;
+    border-radius: 100px;
+    border-color: transparent;
+    background: #0575e6;
+    color: #050505;
+    padding: 4px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 75px;
+    margin-top: 1.5rem;
+}
+
+.LoginBtnShape {
+    padding: 10px 50px;
+    width: 100%;
+}
+
+.Input {
+    background: #050505;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Input::placeholder {
+    color: #333;
+}

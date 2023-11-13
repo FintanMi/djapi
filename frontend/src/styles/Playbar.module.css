@@ -1,0 +1,63 @@
+.PlayBar {
+    background-color: #000;
+    color: #f2fcfe;
+    height: 6rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlaybarLeftSide {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PlaybarLeftSide img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 8px;
+}
+
+.PlaybarLeftSideInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.PlaybarArtist {
+    font-size: 0.8rem;
+}
+
+.playbarIconsContainer {
+    padding: 1rem;
+}
+
+.playbarIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #c2c2c2;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #333333;
+    padding-left: 3px;
+}
+
+.PlaybarRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #c2c2c2;
+}
+
+.PlaybarRightSideVol {
+    fill: #c2c2c2;
+}
